@@ -12,9 +12,6 @@
 p{
   color:white;
 }
-.col-md-4{
-  align-items: right;
-}
 .hour{
   background-color: grey;
 }
@@ -22,24 +19,29 @@ p{
   background-color: #D35400;
 }
 #breakfast{
-  background-image: url("../img/foodtop/breakfast.jpg");
+  background-image: url('../img/fastfood/foodtop/breakfast.jpg');
   background-repeat: no-repeat;
   width: 300px;
   height: 300px;
+  float: left;
 }
 #lunch{
-  background-image: url("../img/foodtop/lunch.jpg");
+  background-image: url('../img/fastfood/foodtop/lunch.jpg');
   background-repeat: no-repeat;
   width: 300px;
   height: 300px;
-
 }
-
 #dinner{
-  background-image: url("../img/foodtop/dinner.jpg");
+  background-image: url('../img/fastfood/foodtop/dinner.jpg');
   background-repeat: no-repeat;
   width: 300px;
   height: 300px;
+}
+.drinks{
+  float:right;
+}
+.first{
+  float: right;
 }
 .paragraph{
   text-align: left;
@@ -50,35 +52,16 @@ p{
   background-repeat: no-repeat;
   background-size: cover;
   height: 500px;
-  margin-top:20px;
+  margin-top: 10px;
   margin-bottom: 300px;
-}
-#chickenBurger{
-  background-image: url("../img/fastfood/chickenBurger.jpg");
-  background-repeat: no-repeat;
-  height:150px;
-  width:100px;
-}
-#beefBurger{
-  background-image: url("../img/fastfood/beefBurger.jpg");
-  background-repeat: no-repeat;
-  height:150px;
-  width:100px;
-}
-#chickenPizza{
-  background-image: url("../img/fastfood/chickenPizza.jpg");
-  background-repeat: no-repeat;
-  height:150px;
-  width:100px;
-
+  padding-top: 20px;
 }
 .table{
   background-color: white;
-  height: 50%;
-  width:70%;
-}
-.col-md-4{
-  float:right;
+  height: 70%;
+  width:90%;
+  margin: 80px;
+  margin-top:10px;
 }
 nav li {
   float: right;
@@ -93,19 +76,53 @@ nav ul{
   }
 
 nav ul a{
-  background-color: grey;
   text-align: right;
 }
  nav ,ul ,li ,a{
     text-decoration:none;
     color: black;
-    list-style-type: none;
-    padding:15px;
+    list-style-type:none;
+    padding:10px;
+    background-color: grey;
+    padding-top: 1px;
 }
-#sec{
+.sec{
   background-color: white;
   color: orange;
+  text-align: left;
+  height:50%;
+  width:50%;
 }
 .btn{
-
+cursor: pointer;
+color: #FF0000;
+}
+.fastfood{
+  padding: 20px;
+}
+#bord{
+float:right;
+}
+.container-fluid{
+margin-top: 1px;
+}
+.border{
+  margin-top: 5px;
+}
+.container-menu{
+  background-image: url('../img/backgrounds/subscribe.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+  width:100%;
+  margin-top:20px;
+}
+.container-footer{
+  background-color: #FF5733;
+  background-size: cover;
+  height: 300px;
+  width:100%;
+}
+.container-footer{
+  text-align:center;
 }
