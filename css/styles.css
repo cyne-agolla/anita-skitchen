@@ -39,6 +39,13 @@ p{
 }
 .drinks{
   float:right;
+  width: 90%;
+  padding: 0px 10px 10px 10px;
+  border-color: transparent;
+  background-color: white;
+  box-shadow: 10px 10px 5px #C0C0C0;
+  -webkit-box-shadow: 1px 7px 34px -5px rgba(0,0,0,1);
+  -moz-box-shadow: 1px 7px 34px -5px rgba(0,0,0,1);
 }
 .first{
   float: right;
@@ -62,6 +69,7 @@ p{
   width:90%;
   margin: 80px;
   margin-top:10px;
+  margin-bottom: 10px;
 }
 nav li {
   float: right;
@@ -95,19 +103,40 @@ nav ul a{
 }
 .btn{
 cursor: pointer;
-color: #FF0000;
+border-color: red;
+background: white;
+color:red;
 }
 .fastfood{
-  padding: 20px;
+  padding: 30px;
 }
 #bord{
-float:right;
+  	 padding-left:20px;
+  	 border-left: 1px solid #ccc;
+  	 text-align: center;
 }
 .container-fluid{
 margin-top: 1px;
 }
 .border{
-  margin-top: 5px;
+	-webkit-box-shadow: 1px 7px 34px -5px rgba(0,0,0,1);
+	-moz-box-shadow: 1px 7px 34px -5px rgba(0,0,0,1);
+	box-shadow: 1px 7px 34px -5px rgba(0,0,0,1);
+	border-style: solid;
+	border-color: transparent;
+	margin-top: 7%;
+	padding-right: 20px;
+	padding-left: 20px;
+  width:90%
+}
+.box-shadow{
+    width: 90%;
+    padding: 0px 10px 10px 10px;
+    border-color: transparent;
+    background-color: white;
+    box-shadow: 10px 10px 5px #C0C0C0;
+    -webkit-box-shadow: 1px 7px 34px -5px rgba(0,0,0,1);
+  	-moz-box-shadow: 1px 7px 34px -5px rgba(0,0,0,1);
 }
 .container-menu{
   background-image: url('../img/backgrounds/subscribe.jpg');
